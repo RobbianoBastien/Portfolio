@@ -20,7 +20,7 @@ function Header() {
             </div>
             <div className="header__nav">
                 <ul className="header__nav__list">
-                    <li onClick={() => scrollToSection('projects')}>Projects</li>
+                    <li onClick={() => scrollToSection('projects')}>Projets</li>
                     <li  onClick={() => scrollToSection('contact')}>Contact</li>
                 </ul>
             </div>

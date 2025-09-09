@@ -1,0 +1,47 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color:#efe1bd;
+    &__title{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    &__content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        &__img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        &__txt{
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 600px;
+            text-align: justify;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .about{
+        &__content{
+            flex-direction: column;
+            &__img{
+                width: 150px;
+                height: 150px;
+            }
+            &__txt{
+                font-size: 1rem;
+                max-width: 90%;
+                text-align: center;
+            }
+        }
+    }
+}

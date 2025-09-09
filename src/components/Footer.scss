@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 50px;
+    &__img{
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}

@@ -1,0 +1,94 @@
+[
+    {   "id": "1",
+        "image": "/images/Bookie.webp",
+        "title": "Bookie",
+        "description": "Création d'un site web de location immobilière",
+        "points": [
+            "Html",
+            "Css",
+            "Flexbox"
+        ],
+        "buttons": [
+            { "label": "Code", "url": "https://github.com/RobbianoBastien/Bookie","action": "external" },
+            { "label": "Page", "url": "https://robbianobastien.github.io/Bookie", "action": "external" }
+        ]
+        
+
+    },
+    {   "id": "2",
+        "image": "/images/Ohmyfood.webp",
+        "title": "Ohmyfood",
+        "description": "Création d'un site mobile first qui répertorie les menus de restaurant gastronomiques",
+        "points": [
+            "Html",
+            "Sass",
+            "Animation"
+        ],
+        "buttons": [
+            { "label": "Code", "url": "https://github.com/RobbianoBastien/Ohmyfood","action": "external" },
+            { "label": "Page", "url": "https://robbianobastien.github.io/Ohmyfood", "action": "external" }
+        ]
+        
+
+    },
+    {   "id": "3",
+        "image": "/images/SophieBuel.webp",
+        "title": "Portfolio architecte",
+        "description": "Création d'un site web interactif pour le portfolio une architecte",
+        "points": [
+            "Html",
+            "Scss",
+            "JavaScript"
+        ],
+        "buttons": [
+            { "label": "Code", "url": "https://github.com/RobbianoBastien/Portfolio-architecte-sophie-bluel-master","action": "external" }
+        ]
+        
+
+    },
+    {   "id": "4",
+        "image": "/images/Kasa.webp",
+        "title": "Kasa",
+        "description": "Création d'un site web interactif pour trouver des hébergements et des activités",
+        "points": [
+            "React",
+            "Scss",
+            "JavaScript"
+        ],
+        "buttons": [
+            { "label": "Code", "url": "https://github.com/RobbianoBastien/kasa","action": "external" }
+        ]
+        
+
+    },
+    {   "id": "5",
+        "image": "/images/NinaCarducci.webp",
+        "title": "Optimisation d'un site web",
+        "description": "Optimisation des performances et de referencement d'un site web existant",
+        "points": [
+            "SEO",
+            "Green Code"
+        ],
+        "buttons": [
+            { "label": "Code", "url": "https://github.com/RobbianoBastien/NinaCarducci","action": "external" },
+            { "label": "Page", "url": "https://robbianobastien.github.io/NinaCarducci", "action": "external" }
+        ]
+        
+
+    },
+    {   "id": "6",
+        "image": "/images/ArgentBanque.webp",
+        "title": "Argent Bank",
+        "description": "Portage react d'une application bancaire",
+        "points": [
+            "React",
+            "API",
+            "Redux"
+        ],
+        "buttons": [
+            { "label": "Code", "url": "https://github.com/RobbianoBastien/Site-Bank","action": "external" }
+        ]
+        
+
+    }  
+]

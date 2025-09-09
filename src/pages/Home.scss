@@ -1,0 +1,26 @@
+h1,h2,h3,h4,h5,h6,li,p,label{
+    color: #333;
+}
+
+.fadein1{
+    opacity: 0;
+    animation: fadein 0.5s ease-in-out 0.5s forwards;
+}
+
+.fadein2{
+    opacity: 0;
+    animation: fadein 0.5s ease-in-out 0.5s forwards;
+    animation-delay: 1s;
+}
+
+.fadein3{
+    opacity: 0;
+    animation: fadein 0.5s ease-in-out 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@keyframes fadein{
+    to{
+        opacity: 1;
+    }
+}

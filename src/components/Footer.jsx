@@ -5,6 +5,8 @@ import linkedin from '../assets/images/linkedin.webp'
 function Footer(){
     return(
     <div className="footer">
+        <p className='footer__texte'>Robbiano Bastien</p>
+        <p className='footer__texte'>bastien.robbiano@live.fr</p>
         <a 
             href="https://github.com/RobbianoBastien" 
             target="_blank" 

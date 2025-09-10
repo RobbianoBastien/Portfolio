@@ -5,6 +5,12 @@
     align-items: center;
     height: 300px;
     gap: 50px;
+    &__texte{
+        color: white;
+        font-size: 24px;
+        margin: 0 10px;
+        font-weight: bold;
+    }
     &__img{
         width: 100px;
         height: 100px;
@@ -15,4 +21,19 @@
             transform: scale(1.1);
         }
     }
+}
+
+
+@media (max-width: 992px) {
+    .footer{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        &__img{
+            width: 80px;
+            height: 80px;
+            margin: 10px;
+        }
+    }
+
 }

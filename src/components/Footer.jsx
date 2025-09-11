@@ -15,7 +15,7 @@ function Footer(){
             <img src={github} alt="logo github" className="footer__img"/>
         </a>
         <a 
-            href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" 
+            href="www.linkedin.com/in/bastien-robbiano" 
             target="_blank" 
             aria-label="Visitez mon profil LinkedIn"
         >
